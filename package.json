@@ -1,0 +1,23 @@
+{
+  "name": "elkorgio87.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkorgio87/elkorgio87.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkorgio87/elkorgio87.github.io/issues"
+  },
+  "homepage": "https://github.com/elkorgio87/elkorgio87.github.io#readme",
+  "dependencies": {
+    "git": "^0.1.5",
+    "mime": ">=1.4.1"
+  }
+}
