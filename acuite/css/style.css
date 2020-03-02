@@ -627,7 +627,8 @@ body {
 
 .footer .connectWrap {
   flex-grow: 0.5;
-  display: flex; }
+  display: flex;
+  margin-left: auto; }
 
 .footer .connect {
   font-family: "Muli", sans-serif;
@@ -640,10 +641,10 @@ body {
   margin: 0 10px; }
 
 .footer__wrapperDown {
-  padding: 0 65px 35px 0;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: #414C56;
   height: 95px;
   color: #A3A9AF; }
