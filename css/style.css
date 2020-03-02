@@ -163,8 +163,11 @@ body {
         .header-title .wrapper_promo .promo .text__left .text__title {
           letter-spacing: 0.012em;
           font-size: 24px;
-          line-height: 30px;
-          text-align: justify; }
+          line-height: 30px; }
+        @media (max-width:1120px){
+          .header-title .wrapper_promo .promo .text__right .text__title,
+          .header-title .wrapper_promo .promo .text__left .text__title {
+            text-align: justify; } }  
           .header-title .wrapper_promo .promo .text__right .text__title span,
           .header-title .wrapper_promo .promo .text__left .text__title span {
             font-weight: 900;
@@ -273,6 +276,7 @@ body {
       .easy .easyWrapper .containerUp {
         max-width: 601px; } }
     .easy .easyWrapper .containerUp .textEasy_1 {
+      padding: 0 20px;
       font-family: "Muli", sans-serif;
       font-weight: 900;
       font-size: 24px;
@@ -308,7 +312,8 @@ body {
       text-align: center;
       color: #555555; }
   .easy .textDown_1 {
-    margin: 68px 0 0 10px;
+    padding: 0 20px;
+    margin: 68px 0 0 0px;
     font-family: "Muli", sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -418,7 +423,7 @@ body {
       .support .support__wrapper .containerText .text {
         max-width: 700px; }
         .support .support__wrapper .containerText .text .title {
-          padding: 10px 0 14px 10px;
+          padding: 10px 20px 14px 20px;
           font-family: "Muli", sans-serif;
           font-weight: 900;
           font-size: 24px;
