@@ -495,7 +495,8 @@ body {
           font-weight: 900;
           font-size: 24px;
           line-height: 30px;
-          color: #549ad1; }
+          color: #549ad1;
+          text-align: justify; }
         .benefits .benefits__wrapper .text .textWrapper .list {
           padding: 0 10px; }
           .benefits .benefits__wrapper .text .textWrapper .list .item {
