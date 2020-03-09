@@ -9,7 +9,7 @@ body {
 
 .header-title {
   min-height: 926px;
-  background-image: linear-gradient(180deg, #5f84a7 0%, rgba(108, 129, 160, 0.46) 100%), url("../img/bg_title_2.webp");
+  background-image: linear-gradient(180deg, #5f84a7 0%, rgba(108, 129, 160, 0.46) 100%), url("/img_acuite/bg_title_2.webp");
   background-repeat: no-repeat;
   background-position: top;
   background-size: auto 582px; }
@@ -322,7 +322,7 @@ body {
       color: #555555; }
 
 .realTime {
-  background-image: url(/img/RealTime.webp);
+  background-image: url(/img_acuite/RealTime.webp);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1800px;
@@ -461,7 +461,7 @@ body {
         width: 100%; } }
 
 .construction {
-  background-image: linear-gradient(90deg, #f5f6f7 0%, rgba(245, 246, 247, 0.95) 100%), url("../img/Johnstone_bg.webp");
+  background-image: linear-gradient(90deg, #f5f6f7 0%, rgba(245, 246, 247, 0.95) 100%), url("/img_acuite/Johnstone_bg.webp");
   background-repeat: no-repeat;
   background-position: right; }
   .construction__wrapper {

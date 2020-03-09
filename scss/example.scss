@@ -1,0 +1,58 @@
+
+// ===  variables ===
+$mainFont: 'Marck Script', cursive;
+$color-second: #B3FFD9;
+$color-third: #107373;
+// === / variables ===
+
+@import '/css/normalize.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: $mainFont;
+}
+
+.bg {
+    min-height: 100vh;
+    background-color: $color-third;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+    .container {
+        padding-top: 20px;
+        text-align: center;
+        font-family: $mainFont;
+        
+            a {
+                text-decoration: none;
+                color: $color-second;
+                font-size: 1.5rem;
+                width: 162px;
+                
+                span{
+                    opacity: 0;
+                }
+            }
+        
+    }
+}
+
+.example {
+    background-color: $color-third;
+
+}
+
+.rounded {
+    width: 200px;
+
+}

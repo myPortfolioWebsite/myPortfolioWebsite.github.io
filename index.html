@@ -4,359 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Muli:400,400i,700,700i,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Roboto:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <title>Home</title>
-</head>
-<body>
-    <!-- header-title -->
-    <section class="header-title">
-        <header class="header">
-            <div class="logo">
-                <a href="index.html"><img src="/img/logo.png" alt=""></a>
-            </div>
-            <div class="burger_btn">
-                <img src="/img/burger_btn.svg" alt="" id="btn">
-            </div>
-            <nav class= "wrapper">
-                <div class="menu ib">
-                    <a href="index.html" class="menu__Item">Home</a>
-                    <a href="#" class="menu__Item">Features</a>
-                    <a href="#" class="menu__Item">About</a>
-                    <a href="partners.html" class="menu__Item">Partners</a>
-                    <a href="#" class="menu__Item">Blog</a>
-                    <a href="#" class="menu__Item">Login</a>
-                </div>
-                <div class="outHref ib">
-                    <a href="#"><img src="/img/facebook.svg" alt="" class="outHref__facebook"></a>
-                    <a href="#"><img src="/img/twitter.svg" alt="" class="outHref__twit"></a>
-                </div>
-                <div class="button ib">
-                    <a href="#" class="button__text">FREE DEMO</a>
-                </div>
-            </nav>
-        </header>
-        <div class="wrapper_promo">
-            <div class="title">Case Study: FOSTERS CONSTRUCTION</div>
-            <hr>
-            <div class="subtitle">
-                Foster Construction have improved their Health and Safety performance by X in X time.
-            </div>
-            <div class="promo">
-                <div class="text__left">
-                    <div class="textWrap">
-                        <div class="text__title">
-                            <span>CHALLENGE</span> – OUT OF DATE HSE INFORMATION
-                        </div>
-                        <div class="text__some">
-                            Until 2017 <strong>Foster’s Constructions HSE</strong>  recording had been paper based and reports 
-                            were up to a month out of date.
-                        </div>
+    <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- header-title -->
+        <section class="header-title">
+            <header>
+                <div class="menu">
+                    <div class="menu__item"> 
+                        <a href="index.html" class="btn">Главная
+                            <svg>
+                                <rect></rect>
+                            </svg>
+                        </a>
                     </div>
-                </div>
-                <div class="text__right">
-                    <div class="textWrap">
-                        <div class="text__title">
-                            <span>SOLUTION</span> – INTEGRATED HSE REPORTING & DASHBOARDS
-                        </div>
-                        <div class="text__some">
-                            Foster’s use <strong>Acuite’s HSE</strong>  mobile enabled tools to record and track their 
-                            <strong>HSE</strong> progress daily, instead of monthly, which means they get actionable 
-                            information in real time.
-                        </div>
+                    <div class="menu__item">
+                        <a href="/acuite/index.html" target="_blanc" class="btn">Примеры<span>_</span>работ
+                            <svg>
+                                <rect></rect>
+                            </svg>
+                        </a>
                     </div>
+                    <!-- <li class="menu__item btn"><a href="">Резюме</a></li> -->
+                    <!-- <li class="menu__item btn"><a href="">Контакты</a></li> -->
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- / header-title -->
-
-    <!-- description -->
-    <section class="description">
-        <div class="description__wrapper">
-            <div class="saveXtime">
-                Acuite’s cloud based HSE reporting tools save X time each month
-            </div>
-            <div class="container">
-                <div class="diagram">
-                    <img src="/img/diagram.png" alt="" class="diagram__img">
+            </header>
+            <div class="wrapper">
+                <div class="photo">
+                    <!-- <img src="/img/photo_r.jpg" alt=""> -->
                 </div>
-                <div class="insights">
-                    <div class="title">
-                        REAL TIME INSIGHTS
-                    </div>
-                    <div class="text_1">
-                        <strong>Foster’s</strong> use <strong>Acuite’s</strong>  simple mobile <strong>HSE</strong> reporting tools to record events as they occur. 
-                        Saving hours of data entry and analysis of every project. 
-                    </div>
-                    <div class="text_2">
-                        “Our health & safety team are notified as soon as an incident has been logged and can act on 
-                        this immediately. This has allowed us to put additional safety measures in place to ensure 
-                        an incident of the same nature does not recur.” 
-                    </div>
-                    <div class="text_3">
-                        Project Support/Systems Management, <strong>Jael Clausen</strong> 
-                    </div>
+                <div class="title">
+                    <h1>Сергей Пристенский</h1>
+                    <div class="skill">ВЕРСТАЛЬЩИК</div>
+                    <div class="skill">HTML5</div>
+                    <div class="skill">CSS3</div>
+                    <div class="skill">jQuery</div>
+                    <div class="skill">JavaScript</div>
                 </div>
-            </div>
-        </div>
-    </section>
-<!-- / description -->
-<!-- / easy -->
-    <section class="easy">
-        <div class="easyWrapper">
-            <div class="image">
-                <img src="/img/easy.png" alt="">
-            </div>
-            <div class="containerUp">
-                <div class="textEasy_1">
-                    EASY, TRANSPARENT INFORMATION SHARING
-                </div>
-                <div class="textEasy_2">
-                    Fosters pride themselves on a process that is open and transparent 
-                    which makes Acuite the perfect HSE recording and reporting tool for them.
-                </div>
-                <div class="textEasy_3">
-                    “Because we are capturing information daily, we can act on it straight away. 
-                    In the past we could be weeks behind learning about where we are at, but this 
-                    way we can fix things immediately.”
-                </div>
-                <div class="textEasy_4">
-                    General Manager <strong>Nigel Sun</strong>  loves how easy Acuite is to use
-                </div>
-            </div>
-        </div>
-        <div class="textDown_1">
-            COMPANY WIDE IMPROVEMENTS
-        </div>
-        <div class="textDown_2">
-            “It is so useful, that everything aligns and you are not waiting for that 
-            piece of paper to be sent to you.”
-        </div>
-        <div class="textDown_3">
-            Jael says improvement has been noted across all levels of the business, 
-            from the site, through to management.
-        </div>
-        <div class="textDown_4">
-            Foster’s biggest health and safety improvements have been in the use of scaffolding. 
-            Workplace falls in New Zealand are estimated to cost <strong>$24 million</strong> a year. 
-            <strong>Factor</strong> in the human cost and minimising falls means Fosters are saving both people and money.
-        </div>
-    </section>
-    <!-- / easy -->
-    <!-- widthLg -->
-        <section class="container">
-            <div class="wrapperImg">
-                <div class="img">
-                    <img src="/img/lg.png" alt="">
-                </div>
-            </div>
-            <div class="wrapperLg">
-                <div class="wrapperText">
-                    <div class="textWidthLg_1">
-                        ONE BUTTON BOARD REPORTS
-                    </div>
-                    <div class="textWidthLg_2">
-                        <strong>Acuite’s</strong> one button reporting has been integral to improving <strong>Foster’s HSE</strong> 
-                        performance across the company as they produce a monthly board report from <strong>Acuite</strong> data.
-                    </div>
-                    <div class="textWidthLg_3">
-                        “We can drill right in to where we are least compliant and focus on that - incidents, leading 
-                        versus lagging indicators, near misses. We can follow up on these items and relate the findings 
-                        to similar projects.”
-                    </div>
-                    <div class="textWidthLg_4">
-                        Project Support/System Management <strong>Jael Clausen</strong>
-                    </div>
-                </div>
-            </div>
+            </div>  
         </section>
-    <!-- / widthLg -->
-    <!--  support -->
-    <section class="support">
-        <div class="support__wrapper">
-            <div class="containerText">
-                <div class="text">
-                    <div class="title">
-                        EXCELLENT SUPPORT FROM ACUITE TEAM
-                    </div>
-                    <div class="textSupport_1">
-                        <strong>The Acuite team's</strong> reliability and speed of response have also been hugely helpful. 
-                        Getting the system up and running:
-                    </div>
-                    <div class="textSupport_2">
-                        “Acuite does what we need right away – that’s a big thing. For us we like to work 
-                        with systems that take on board our feedback and that is what Acuite has really done, 
-                        always wanting to help us, and acting very flexibly.”
-                    </div>
-                    <div class="textSupport_3">
-                        General Manager of Fosters Construction <strong>Nigel Sun</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="questionImg">
-                <img src="/img/question.png" alt="">
-            </div>
-        </div>
-    </section>
-    <!-- / support -->
-    <!--  benefits -->
-    <section class="benefits">
-        <div class="title">
-            Benefits
-        </div>
-        <div class="benefits__wrapper">
-            <div class="image">
-                <img src="/img/benefits.png" alt="">
-            </div>
-            <div class="text">
-                <div class="textWrapper">
-                    <div class="titleSm">
-                        ACUITE REVOLUTIONISES CONSTRUCTION REPORTING AND PERFORMANCE MANAGEMENT...
-                    </div>
-                    <div class="list">
-                        <div class="item">
-                            <div>
-                                <img src="/img/marker.png" alt="">
-                            </div> 
-                            <div>
-                                Made by people from the construction industry, for the construction industry.
-                            </div>
-                        </div> 
-                        <div class="item">
-                            <div>
-                                <img src="/img/marker.png" alt="">
-                            </div>
-                            <div> 
-                                Provides transparency from the site, to the boardroom and from project, to portfolio.
-                                Fast and easy to implement.
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <img src="/img/marker.png" alt="">
-                            </div>
-                            <div>
-                                Integrates with all key software to provide seamless and consistent information 
-                                across your business.
-                            </div> 
-                        </div>
-                        <div class="item">
-                            <div>
-                                <img src="/img/marker.png" alt="">
-                            </div> 
-                            <div>
-                                You wouldn’t drive your car without referring to the dashboard, so why work 
-                                blind? Acuite highlights risks and gives you time to mitigate them.
-                            </div> 
-                                
-                        </div> 
-                        <div class="item">
-                            <div>
-                                <img src="/img/marker.png" alt="">
-                            </div> 
-                            <div>
-                                Everything you need to make informed decisions is at your fingertips.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- / benefits -->
-    <!-- CEO -->
-    <section class="ceo">
-        <div class="container">
-            <div class="image">
-                <img src="/img/CEO.png" alt="">
-            </div>
-            <div class="text">
-                <div class="textCeo_1">
-                    <strong>Acuite’s</strong> construction intelligence software has been a game changer for many of 
-                    New Zealand’s top construction firms, assisting them to improve their performance. 
-                </div>
-                <div class="textCeo_2">
-                    Acuite CEO David <strong>Speight realises</strong> the industry is time poor and people want to get 
-                    out and do work, not admin, which is why Acuite was created;
-                </div>
-            </div>
-        </div>
-        <div class="img">
-            <img src="/img/ceo_1.png" alt="">
-        </div>
-        <div class="textCeo_3">
-            We bring together all the key performance information at project level and deliver company
-            wide systems improvements as a result
-            </div>
-        <div class="textCeo_4">
-            David Speight
-        </div>
-    </section>
-    <!-- / CEO -->
-    <!-- get -->
-<section class="get">
-    <div class="title">
-        Get your free demo today:
-    </div>
-    <div class="containerGet">
-        <div class="contacts">
-            <div class="img">
-                <img src="/img/mail.png" alt="">
-            </div>
-            <div class="text">
-                info@acuitehq.com
-            </div>
-        </div>
-        <div class="contacts">
-            <div class="img">
-                <img src="/img/phone.png" alt="">
-            </div>
-            <div class="text">
-                +64 9 281 4613
-            </div>
-        </div>
-        <div class="contacts">
-            <div class="img">
-                <img src="/img/Web.png" alt="">
-            </div>
-            <div class="text">
-                www.acuite.com
-            </div>
-        </div>
-    </div>
-    <div class="button"><a href="#" class="button__text">GET STARTED</a></div>
-</section>
-<!-- / get -->
-<!-- footer -->
-<footer class="footer">
-    <nav class="footer__wrapperUp">
-        <div class="footer__menu">
-            <a href="index.html" class="menu__Item">Home</a>
-            <a href="#" class="menu__Item">Features</a>
-            <a href="#" class="menu__Item">About</a>
-            <a href="partners.html" class="menu__Item">Partners</a>
-            <a href="#" class="menu__Item">Blog</a>
-            <a href="#" class="menu__Item">Login</a>
-            <a href="#" class="menu__Item color">Terms of Use</a>
-        </div>
-        <div class="connectWrap">
-            <div class="connect">
-                Connect With Us
-            </div>
-            <div class="footer__outHref">
-                <a href="#"><img src="/img/facebook.svg" alt="" class="outHref__facebook"></a>
-                <a href="#"><img src="/img/twitter.svg" alt="" class="outHref__twit"></a>
-            </div>
-        </div>
-    </nav>
-    <div class="footer__wrapperDown">
-       <div>© 2018 Acuite Construction intelligence. All Rights Reserved.</div>
-    </div>
-</footer>
-<!-- / footer -->
-<script src="scripts.js"></script>
-</body>
-</html>
+        <!-- / header-title -->
+    </body>
+    </html>

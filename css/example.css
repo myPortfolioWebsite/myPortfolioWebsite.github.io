@@ -1,0 +1,34 @@
+@import url(/css/normalize.css);
+* {
+  box-sizing: border-box; }
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Marck Script", cursive; }
+
+.bg {
+  min-height: 100vh;
+  background-color: #107373; }
+
+header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  header .container {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Marck Script", cursive; }
+    header .container a {
+      text-decoration: none;
+      color: #B3FFD9;
+      font-size: 1.5rem;
+      width: 162px; }
+      header .container a span {
+        opacity: 0; }
+
+.example {
+  background-color: #107373; }
+
+.rounded {
+  width: 200px; }

@@ -1,0 +1,24 @@
+{
+  "name": "myportfoliowebsite.github.io",
+  "version": "1.0.0",
+  "description": "\"# github.io\" \r \"# elkorgio87.github.io\"",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myPortfolioWebsite/myPortfolioWebsite.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myPortfolioWebsite/myPortfolioWebsite.github.io/issues"
+  },
+  "homepage": "https://github.com/myPortfolioWebsite/myPortfolioWebsite.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
