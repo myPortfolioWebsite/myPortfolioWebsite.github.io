@@ -27,8 +27,9 @@ header {
       header .container a span {
         opacity: 0; }
 
-.example {
-  background-color: #107373; }
+.example a {
+  text-decoration: none;
+  color: #B3FFD9; }
 
 .rounded {
   width: 200px; }

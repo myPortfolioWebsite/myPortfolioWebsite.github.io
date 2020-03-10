@@ -1,0 +1,363 @@
+@import url(normalize.css);
+* {
+  box-sizing: border-box; }
+
+body {
+  background: url("../img/bg_body.jpg");
+  font-family: Poppins;
+  margin: 0;
+  padding: 0; }
+
+.header-title {
+  background: url("../img/bg_contact.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.section-header {
+  background: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 190px;
+  margin: 0;
+  padding: 0; }
+  .section-header__logo {
+    margin: 0px;
+    padding: 0px; }
+  .section-header #check-menu {
+    display: none; }
+  @media (max-width: 767px) {
+    .section-header .section-inner {
+      display: fl         ex;
+      justify-content: space-between;
+      margin-top: 10px; }
+    .section-header__logo img {
+      margin-left: 10px;
+      height: 90px; }
+    .section-header__btn-menu {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      bottom: 0;
+      width: 30px;
+      height: 13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2; }
+      .section-header__btn-menu span {
+        width: 100%;
+        height: 3px;
+        background-color: #4497e6;
+        border-radius: 30%; }
+    .section-header #check-menu:checked ~ label .section-header__btn-menu {
+      position: fixed; }
+    .section-header #check-menu:checked ~ label .section-header__btn-menu span {
+      background-color: #ffffff;
+      transition: transform .3s; }
+    .section-header #check-menu:checked ~ label .section-header__btn-menu .second {
+      display: none; }
+    .section-header #check-menu:checked ~ label .section-header__btn-menu .first {
+      transform: rotate(45deg); }
+    .section-header #check-menu:checked ~ label .section-header__btn-menu .third {
+      transform: translate(0px, -10px) rotate(-45deg); }
+    .section-header label {
+      height: 13px;
+      width: 30px;
+      cursor: pointer; }
+    .section-header #check-menu:checked ~ .section-header__menu {
+      transform: translateX(0); }
+    .section-header__menu {
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 175px;
+      overflow: auto;
+      background-color: #3270cef1;
+      transform: translateX(100%);
+      transition: transform .3s;
+      z-index: 1; }
+      .section-header__menu_nav {
+        margin-top: 60px;
+        padding: 0;
+        justify-content: space-evenly;
+        text-align: center; }
+        .section-header__menu_nav li {
+          margin-bottom: 30px;
+          list-style: none; }
+          .section-header__menu_nav li a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #F9F9F9; }
+      .section-header__menu .language-link {
+        display: flex;
+        padding-top: 5px;
+        padding: 0;
+        justify-content: center; }
+        .section-header__menu .language-link li {
+          list-style: none; }
+          .section-header__menu .language-link li + li {
+            margin-left: 5px; }
+          .section-header__menu .language-link li a, .section-header__menu .language-link li span {
+            font-size: 14px;
+            color: #F9F9F9;
+            text-decoration: none; }
+            .section-header__menu .language-link li a.active, .section-header__menu .language-link li span.active {
+              font-weight: bold; } }
+  @media (min-width: 768px) {
+    .section-header .section-inner {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1140px;
+      margin: 10px auto 0 auto;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .section-header__logo {
+      display: flex; }
+      .section-header__logo a {
+        margin: 0 auto 0 auto; }
+      .section-header__logo img {
+        height: 100px; }
+    .section-header__menu {
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-evenly; }
+      .section-header__menu_nav {
+        display: flex;
+        padding: 0;
+        justify-content: space-evenly; }
+        .section-header__menu_nav li {
+          margin: 0;
+          padding: 0;
+          list-style: none; }
+          .section-header__menu_nav li + li {
+            margin-left: 30px; }
+          .section-header__menu_nav li a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #3d55a4; }
+    .section-header .language-link {
+      display: flex;
+      padding-top: 5px;
+      padding: 0; }
+      .section-header .language-link li {
+        list-style: none; }
+        .section-header .language-link li + li {
+          margin-left: 5px; }
+        .section-header .language-link li a, .section-header .language-link li span {
+          font-size: 14px;
+          color: #3d55a4;
+          text-decoration: none; }
+          .section-header .language-link li a.active, .section-header .language-link li span.active {
+            font-weight: bold; } }
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 0 auto;
+  padding: 0 10px 0 10px;
+  max-width: 1140px; }
+  .title__wrapper {
+    max-width: 463px; }
+  .title__h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #F9F9F9; }
+  .title__p {
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    color: #F9F9F9;
+    margin-top: 10px; }
+  @media (max-width: 767px) {
+    .title__h1 {
+      font-size: 35px;
+      line-height: 40px; } }
+
+.location {
+  margin: 105px auto 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 1140px; }
+  .location__container {
+    display: flex;
+    justify-content: space-evenly; }
+    .location__container_map {
+      border-radius: 22px; }
+    .location__container_Thailand {
+      margin-right: 20px; }
+      @media (max-width: 770px) {
+        .location__container_Thailand {
+          margin-right: 0px; } }
+    .location__container #map, .location__container #map1 {
+      width: 100%;
+      height: 560px; }
+    .location__container_headline {
+      margin: 41px 0 10px 100px;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 31px;
+      color: #3D55A4; }
+    .location__container_contacts {
+      margin: 0 0 30px 100px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #3D55A4;
+      max-width: 370px; }
+  @media (max-width: 767px) {
+    .location__container {
+      flex-direction: column; }
+      .location__container div:first-child {
+        margin-bottom: 20px; } }
+
+.section-contact_us__container {
+  max-width: 753px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section-contact_us__container_headline {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3D55A4; }
+  .section-contact_us__container input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1E6DB5;
+    font-weight: bold; }
+  .section-contact_us__container ::placeholder {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1E6DB5;
+    opacity: 0.5; }
+  .section-contact_us__container_name, .section-contact_us__container_email {
+    display: flex;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1E6DB5;
+    width: 366px;
+    border-bottom: 2px solid #1E6DB5; }
+    .section-contact_us__container_name span, .section-contact_us__container_email span {
+      color: red; }
+  .section-contact_us__container_company_name {
+    margin-top: 30px;
+    width: 366px;
+    border-bottom: 2px solid #1E6DB5; }
+  .section-contact_us__container_text {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 366px; }
+    .section-contact_us__container_text textarea {
+      min-height: 125px;
+      padding: 10px;
+      margin-bottom: 0;
+      width: 100%;
+      margin-bottom: 20px;
+      border: 2px solid #1e6db5;
+      outline: 0;
+      color: #3d55a4; }
+  .section-contact_us__container_button {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 193px;
+    height: 50px;
+    background: #1E6DB5;
+    border-radius: 100px;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px; }
+    .section-contact_us__container_button:hover {
+      background: #3D55A4; }
+    .section-contact_us__container_button a {
+      text-decoration: none;
+      color: #F9F9F9; }
+
+.section-footer {
+  background: url("../img/bg_footer.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 110px; }
+  .section-footer .wrapper {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+    min-height: 380px; }
+  .section-footer__contact {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9F9F9;
+    min-height: 300px; }
+    .section-footer__contact_logo {
+      display: flex; }
+      .section-footer__contact_logo img {
+        align-items: center; }
+    .section-footer__contact_Thailand, .section-footer__contact_Pakistan {
+      max-width: 290px; }
+      .section-footer__contact_Thailand_headline, .section-footer__contact_Pakistan_headline {
+        font-weight: bold;
+        font-size: 14px; }
+      .section-footer__contact_Thailand_contacts, .section-footer__contact_Pakistan_contacts {
+        font-size: 14px;
+        line-height: 21px; }
+        .section-footer__contact_Thailand_contacts a, .section-footer__contact_Pakistan_contacts a {
+          color: #F9F9F9; }
+    .section-footer__contact_nav ul {
+      margin: 0;
+      list-style: none; }
+      .section-footer__contact_nav ul li {
+        padding-bottom: 10px; }
+    .section-footer__contact_nav a {
+      text-decoration: none;
+      color: #F9F9F9;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 21px; }
+  .section-footer__copyright {
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 12px;
+    color: #0B3A7A; }
+    .section-footer__copyright span {
+      font-weight: bold; }
+  @media (max-width: 767px) {
+    .section-footer__contact {
+      flex-direction: column; }
+      .section-footer__contact_Thailand {
+        margin-top: 20px; }
+      .section-footer__contact_logo {
+        display: none; }
+      .section-footer__contact_Thailand, .section-footer__contact_Pakistan {
+        margin-bottom: 10px;
+        margin-left: 10%; }
+      .section-footer__contact_nav ul {
+        display: flex;
+        justify-content: space-evenly; } }
+  @media (min-width: 768px) {
+    .section-footer__contact {
+      align-items: flex-end; }
+      .section-footer__contact_Thailand {
+        margin-left: 180px;
+        margin-right: 10px; }
+    .section-footer__copyright {
+      margin-top: 70px; } }
+  @media (max-width: 1199px) {
+    .section-footer__contact_logo img {
+      display: none; } }
