@@ -6,6 +6,7 @@ $color-third: #107373;
 
 
 @import '/css/normalize.css';
+@import '/css/burger.css';
 
 * {
     box-sizing: border-box;
@@ -96,7 +97,7 @@ $color-third: #107373;
             position: relative;
             overflow: hidden;
             border-radius: 50%;
-            background-image: url(/img/photo_r.jpg);
+            background-image: url(/img/photo_r.webp);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
