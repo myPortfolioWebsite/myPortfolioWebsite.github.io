@@ -44,8 +44,7 @@
     .header-title .menu__item {
       width: min-content;
       margin: 0  auto;
-      padding-top: 20px;
-      list-style: none; }
+      padding-top: 35px; }
       .header-title .menu__item a {
         margin: 0 5px;
         font-size: 1.5rem;
