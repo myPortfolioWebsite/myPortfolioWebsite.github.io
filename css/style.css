@@ -36,17 +36,18 @@
     transition: .4s all; }
   .header-title .btn:hover rect {
     stroke-dasharray: 100% 0; }
+  .header-title .wrapperBurger {
+    position: absolute;
+    right: 0;
+    z-index: 5; }
   .header-title .menu {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0; }
+    padding: 0;
+    justify-content: center; }
     .header-title .menu__item {
       width: min-content;
-      margin: 0  auto;
       padding-top: 35px; }
       .header-title .menu__item a {
-        margin: 0 5px;
         font-size: 1.5rem;
         color: #B3FFD9;
         text-decoration: none;

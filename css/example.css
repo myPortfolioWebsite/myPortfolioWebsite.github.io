@@ -1,10 +1,7 @@
-@import url(/css/normalize.css);
 * {
   box-sizing: border-box; }
 
 .body {
-  margin: 0;
-  padding: 0;
   font-family: "Marck Script", cursive; }
 
 .bg {
@@ -20,11 +17,11 @@ header {
     font-family: "Marck Script", cursive;
     text-align: center; }
     header .container a {
+      width: 162px;
       margin: 0 auto;
       text-decoration: none;
       color: #B3FFD9;
-      font-size: 1.5rem;
-      width: 162px; }
+      font-size: 1.5rem; }
       header .container a span {
         opacity: 0; }
     header .container a:hover {
@@ -35,6 +32,10 @@ header {
   padding-top: 50px;
   text-align: center;
   font-family: "Marck Script", cursive; }
+  .example .tab-pane a img {
+    width: 100%; }
+  .example .tabs {
+    padding: 0 10px; }
   .example a {
     text-decoration: none;
     color: #B3FFD9;

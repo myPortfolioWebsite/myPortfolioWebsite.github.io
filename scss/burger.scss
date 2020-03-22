@@ -21,7 +21,8 @@ $scale: 1;			  // icon scale 68/68 default
   height: 68px;
   // background: $blue;
   -webkit-touch-callout: none;
-	user-select: none;
+  user-select: none;
+  z-index: 9999;
 }
 
 // transition mask

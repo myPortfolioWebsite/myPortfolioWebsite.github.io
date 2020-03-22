@@ -56,20 +56,22 @@ $color-third: #107373;
         stroke-dasharray: 100% 0;
     }
 
+    .wrapperBurger {
+        position: absolute;
+        right: 0;
+        z-index: 5;
+    }
+
     .menu {
-       
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
         padding: 0;
+        justify-content: center;
         
         &__item {
             width: min-content;
-            margin: 0  auto ;
             padding-top: 35px;
 
             a {
-                margin: 0 5px;
                 font-size: 1.5rem;
                 color: $color-second;
                 text-decoration: none;

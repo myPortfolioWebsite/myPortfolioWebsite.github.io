@@ -10,7 +10,8 @@
   width: 68px;
   height: 68px;
   -webkit-touch-callout: none;
-  user-select: none; }
+  user-select: none;
+  z-index: 9999; }
 
 .path-burger {
   position: absolute;

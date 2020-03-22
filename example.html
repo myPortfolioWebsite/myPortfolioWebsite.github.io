@@ -16,31 +16,46 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <a href="index.html" class="btn">Главная
+                        <a href="index.html" class="btn link">Главная
                             <svg>
                                 <rect></rect>
                             </svg>
                         </a>
                     </div>
-                    <!-- <div class="col col-sm-3">
-                        <a href="">Резюме</a>
-                    </div>
-                    <div class="col col-sm-3">
-                        <a href="">Контакты</a>
-                    </div> -->
                 </div>
             </div>
         </header>
         <section class="example">
-            <div class="row justify-content-around">
-                <div class="col-sm-2">            
-                    <a href="/acuite/index.html" target="_blanc" class="btn">ACUITE</a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="/ocean/index.html" target="_blanc" class="btn">OCEAN</a>
-                </div>
+            <div class="tabs">  
+            
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="ocean-tab" data-toggle="tab" href="#ocean" role="tab" aria-controls="ocean" aria-selected="true">OCEAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="acuite-tab" data-toggle="tab" href="#acuite" role="tab" aria-controls="acuite" aria-selected="false">ACUITE</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="ocean" role="tabpanel" aria-labelledby="ocean-tab">
+                        <a href="/ocean/index.html" target="_blanc">
+                            <img src="/img/Ocean.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="tab-pane" id="acuite" role="tabpanel" aria-labelledby="acuite-tab">
+                        <a href="/acuite/index.html" target="_blanc">
+                            <img src="/img/Acuite.webp" alt="">
+                        </a>
+                    </div>
+                </div>  
             </div>
-        </section>
+        </section> 
+                  
     </div>
+   
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
