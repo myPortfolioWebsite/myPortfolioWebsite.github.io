@@ -1,6 +1,6 @@
-@import url(/css/null.css);
-@import url(/css/ui.css);
-@import url(/css/slider.css);
+@import url(/bike/css/null.css);
+@import url(/bike/css/ui.css);
+@import url(/bike/css/slider.css);
 .container {
   max-width: 1130px;
   padding: 0 15px;
