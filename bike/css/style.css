@@ -190,7 +190,7 @@
 .brands__row {
   display: flex;
   font-size: 0px; }
-  @media (max-width: 1100px) {
+  @media (max-width: 1000px) {
     .brands__row {
       flex-direction: column; } }
 
@@ -224,7 +224,7 @@
   height: 100%;
   display: block;
   position: relative; }
-  @media (max-width: 1100px) {
+  @media (max-width: 1000px) {
     .item {
       height: auto;
       padding: 0px 0px 70% 0px; } }
@@ -307,7 +307,7 @@
   color: #fff;
   padding: 0 60px; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .shop__body {
     flex-wrap: wrap; }
   .shop__column {
@@ -411,7 +411,7 @@
     display: flex;
     font-size: 0px;
     justify-content: flex-end; }
-  @media (max-width: 1100px) {
+  @media (max-width: 1000px) {
     .footer {
       padding: 50px 0px; } }
   @media (max-width: 600px) {
