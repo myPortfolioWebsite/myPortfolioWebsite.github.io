@@ -42,4 +42,31 @@ $(document).ready(function(){function ibg(){
             settings: {}
         }]
     });
+
+    var pattern = /^[a-z0-9_\.-]+@[a-z0-9-]+\.([a-z]{2,6}\.)?[a-z]{2,6}$/i;  
+    var mail = $('#email');
+
+    mail.bind("change keyup click", function(){
+    // mail.input(function(){
+        if(mail.val()  != ''){
+            if (mail.val().search(pattern) == 0){
+                // $('#valid').text('Подходит');
+                $('#submit').attr('disabled', false);
+                $('#submit').removeClass('disabled');
+                mail.addClass('ok');
+                mail.removeClass('error');
+            }else{
+                // $('#valid').text('Не подходит');
+                $('#submit').attr('disabled', true);
+                $('#submit').addClass('disabled');
+                mail.removeClass('ok');
+                mail.addClass('error');
+            }
+            
+        } else{
+            // $('#valid').text('Поле email не должно быть пустым!');
+            $('#submit').addClass('disabled');
+            mail.addClass('error');
+        }
+    })
 })

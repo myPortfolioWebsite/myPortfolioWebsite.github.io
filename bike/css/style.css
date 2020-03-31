@@ -336,57 +336,74 @@
     .block-shop__item_b {
       padding: 0px 0px 200.5% 0px; }
 
-.subscribe__body {
-  max-width: 534px;
-  margin: 0 auto;
-  padding: 110px 0;
-  text-align: center; }
-
-.subscribe__logo {
-  margin: 0px 0px 40px 0px; }
-
-.subscribe__label {
-  color: #848789;
-  font-size: 24px;
-  font-style: italic;
-  margin: 0px 0px 35px 0px; }
-
-.subscribe__form {
-  display: flex;
-  font-size: 0px; }
-
-.subscribe__input {
-  flex: 1 1 auto;
-  padding: 0px 8px 0px 0px; }
-  .subscribe__input .input {
-    width: 100%;
-    height: 70px;
-    border: 1px solid #d3d7d9;
-    background-color: #fff;
-    padding: 0 28px;
-    color: #929292;
-    font-size: 20px;
-    font-style: italic; }
-
-.subscribe_button {
-  flex: 0 0 126px; }
-
-.subscribe__btn {
-  width: 100%;
-  height: 70px;
-  background-color: #64c29e; }
-
-@media (max-width: 750px) {
-  .subscribe__body {
-    padding: 50px 0; } }
-
-@media (max-width: 500px) {
-  .subscribe__form {
-    display: block; }
-  .subscribe__input {
-    padding: 0px 0px 8px 0px; } }
-
-.footer {
+      .subscribe__body {
+        max-width: 534px;
+        margin: 0 auto;
+        padding: 110px 0;
+        text-align: center; }
+      
+      .subscribe__logo {
+        margin: 0px 0px 40px 0px; }
+      
+      .subscribe__label {
+        color: #848789;
+        font-size: 24px;
+        font-style: italic;
+        margin: 0px 0px 35px 0px; }
+      
+      .subscribe__form {
+        display: flex;
+        font-size: 0px; }
+      
+      .subscribe .valid {
+        font-size: 20px;
+        margin: 5px 0px; }
+      
+      .subscribe .input.ok {
+        border: 1px solid green; }
+      
+      .subscribe .input.error {
+        border: 1px solid red; }
+      
+      .subscribe__input {
+        flex: 1 1 auto;
+        padding: 0px 8px 0px 0px; }
+        .subscribe__input .input {
+          width: 100%;
+          height: 70px;
+          border: 1px solid #d3d7d9;
+          background-color: #fff;
+          padding: 0 28px;
+          color: #929292;
+          font-size: 20px;
+          font-style: italic; }
+      
+      .subscribe_button {
+        flex: 0 0 126px; }
+      
+      .subscribe__btn {
+        cursor: pointer;
+        width: 100%;
+        height: 70px;
+        background-color: #64c29e;
+        color: #fff;
+        font-size: 24px; }
+      
+      .subscribe__btn.disabled {
+        background-color: #ebebeb;
+        cursor: not-allowed; }
+      
+      @media (max-width: 750px) {
+        .subscribe__body {
+          padding: 50px 0; } }
+      
+      @media (max-width: 500px) {
+        .subscribe__form {
+          display: block; }
+        .subscribe__input {
+          padding: 0px 0px 8px 0px; } }
+      
+      .footer {
   background-color: #f7f7f7;
   padding: 100px 0px; }
   .footer__row {

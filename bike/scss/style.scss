@@ -10,8 +10,6 @@ $minwidth: 320px;
 @import "/bike/css/ui.css";
 @import "/bike/css/slider.css";
 
-// .wrapper  {}
-
 .container {
     max-width: 1130px;
     padding: 0 15px;
@@ -183,7 +181,6 @@ $minwidth: 320px;
         left: 0; 
     }
 }
-
 .generation {
     padding: 120px 0;
     background-color: #f7f7f7;
@@ -195,7 +192,6 @@ $minwidth: 320px;
         padding: 30px 0;
     }
 }
-
 .block {
     text-align: center;
     &__icon {
@@ -234,7 +230,6 @@ $minwidth: 320px;
         }
     }
 }
-
 .brands {
 
     &__row {
@@ -328,7 +323,6 @@ $minwidth: 320px;
         }
     }
 }
-
 .slider {
     background-color: #f7f7f7;
     padding: 120px 0px 60px 0px;
@@ -361,7 +355,6 @@ $minwidth: 320px;
         color: #848789;
     }
 }
-
 .shop {
 
     &__body {
@@ -439,9 +432,8 @@ $minwidth: 320px;
         }
     }
 }
-
 .subscribe {
-
+   
     &__body {
         max-width: 534px;
         margin: 0 auto;
@@ -463,10 +455,22 @@ $minwidth: 320px;
     &__form {
         @include flexbox();
     }
+    .valid {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
 
+    .input.ok {
+        border: 1px solid green;
+    }
+    .input.error {
+        border: 1px solid red;
+    }
     &__input {
         flex: 1 1 auto;
         padding: 0px 8px 0px 0px;
+
+        
         .input{
             width: 100%;
             height: 70px;
@@ -482,11 +486,19 @@ $minwidth: 320px;
     &_button {
         flex: 0 0 126px;
     }
-
+    
     &__btn {    
+        cursor: pointer;
         width: 100%;
         height: 70px;
         background-color: #64c29e;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    &__btn.disabled{
+        background-color: #ebebeb;
+        cursor: not-allowed;;
     }
 
     @media (max-width: 750px) {
@@ -504,7 +516,6 @@ $minwidth: 320px;
         }
     }
 }
-
 .footer {
     background-color: #f7f7f7;
     padding: 100px 0px;
@@ -559,7 +570,6 @@ $minwidth: 320px;
         }
     }
 }
-
 .social {
     @include flexbox();
     justify-content: center;

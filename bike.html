@@ -305,12 +305,13 @@
                         <div class="subscribe__body">
                             <div class="subscribe__logo"><img src="../img/Logo.webp" alt=""></div>
                             <div class="subscribe__label">Stay on the saddle</div>
-                            <form action="" class="subscribe__form">
+                            <form action="#" class="subscribe__form">
                                 <div class="subscribe__input">
-                                    <input type="text" placeholder="enter your email..." class="input">
+                                    <input type="text" id="email"  placeholder="enter your email..." class="input" required>
+                                    <div class="valid" id="valid"></div>
                                 </div>
                                 <div class="subscribe_button">
-                                    <button class="subscribe__btn">GO</button>
+                                    <input type="submit" id="submit" value="GO"  class="subscribe__btn" disabled>
                                 </div>
                             </form>
                         </div>
