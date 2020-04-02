@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/toilet-paper-calculator/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+    <section class="section-outer">
+        <div class="section-inner">
+            <h1>Калькулятор туалетной бумаги</h1>
+
+            <div class="form-group">
+                <div class="form-group__title">Длина рулона, м (средняя длина 20м)</div>
+                <div class="form-group__control control">
+                    <input type="text" class="control__input" value="20" id="total-length">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-group__title">Метод подсчёта</div>
+                <div class="form-group__control control">
+                    <button data-type="length" class="control__button control__button--active">по длине</button>
+                    <button data-type="paper" class="control__button">по листочкам</button>
+                </div>
+            </div>
+
+            <div class="form-group hidden" id="paper-length-block">
+                <div class="form-group__title">Длина листочка, см (средняя длина 14 см)</div>
+                <div class="form-group__control control">
+                    <input type="text" class="control__input" value="14" id="paper-length">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-group__title">Сколько человек дома?</div>
+                <div class="form-group__control control">
+                    <input type="text" class="control__input" value="1" id="users-count">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-group__title">Использовано в день</div>
+                <div class="form-group__control control control--col" id="users-list">
+                </div>
+            </div>
+            <h2>Хватит на <span id="result">10</span> дней</h2>
+        </div>
+    </section>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
