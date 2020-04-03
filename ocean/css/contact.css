@@ -4,6 +4,7 @@
 
 body {
   background: url("../img/bg_body.jpg");
+  cursor: url(/ocean/img/icons8-fish-48.png) 10 25, auto;
   font-family: Poppins;
   margin: 0;
   padding: 0; }
