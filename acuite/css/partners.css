@@ -5,8 +5,12 @@
 body {
   margin: 0;
   padding: 0;
+  cursor: url(/img_acuite/masterok.png) 2 40, auto;
   max-width: 1920px; }
 
+.not-allowed {
+  cursor: not-allowed; }
+  
 .header-title {
   min-height: 926px;
   background-image: linear-gradient(180deg, #5f84a7 0%, rgba(108, 129, 160, 0.46) 100%), url("/img_acuite/bg_title_2.webp");
@@ -27,6 +31,7 @@ body {
         .header-title .header .logo {
           margin-left: 0; } }
     .header-title .header .burger_btn {
+
       position: fixed;
       right: 57px;
       top: 10px;

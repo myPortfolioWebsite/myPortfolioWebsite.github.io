@@ -5,7 +5,11 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 1920px; }
+  max-width: 1920px;
+  cursor: url(/img_acuite/masterok.png) 2 40, auto; }
+
+  .not-allowed {
+  cursor: not-allowed; }
 
 .header-title {
   min-height: 926px;
