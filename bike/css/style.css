@@ -2,7 +2,7 @@
 @import url(/bike/css/ui.css);
 @import url(/bike/css/slider.css);
 body {
-  cursor: url(/img/bicycle_PNG.png) 2 20, auto; }
+  cursor: url(/img/bicycle_PNG.png) 20 0, auto; }
 
 .container {
   max-width: 1130px;
